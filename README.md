@@ -1,4 +1,4 @@
-inject - yet Another JS asynchronous script loader
+Inject - Yet Another JS Asynchronous Script Loader
 --------------------------------------------------
 
 This library allows you to load script resources on-demand from any URL and not block other resources from loading(like CSS and images).
