@@ -15,11 +15,11 @@ How to use
 Browser support
 ---------------
 
-       *IE6+
-       *Chrome
-       *Firefox 3+
-       *Opera
-       *Safari 4+
+*IE6+
+*Chrome
+*Firefox 3+
+*Opera
+*Safari 4+
 
 ## License ##
 
