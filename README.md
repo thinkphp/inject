@@ -1,7 +1,7 @@
-inject 
-------
+inject - yet Another JS asynchronous script loader
+--------------------------------------------------
 
-Yet Another JS asynchronous script loader
+This library allows you to load script resources on-demand from any URL and not block other resources from loading(like CSS and images).
 
 How to use
 ==========
@@ -15,11 +15,11 @@ How to use
 Browser support
 ---------------
 
-*IE6+
-*Chrome
-*Firefox 3+
-*Opera
-*Safari 4+
+* IE6+
+* Chrome
+* Firefox 3+
+* Opera
+* Safari 4+
 
 ## License ##
 
