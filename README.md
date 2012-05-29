@@ -12,6 +12,14 @@ How to use
            //do something
        }) 
 
+       or you can without dot js
+
+       inject('moo').then('foo').then('bar').ready(function(){
+
+           //moo.js & foo.js & bar.js ready
+           //do something
+       }) 
+  
 Browser support
 ---------------
 
