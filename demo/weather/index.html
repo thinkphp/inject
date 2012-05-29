@@ -4,6 +4,20 @@
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
    <title>Weather based on Inject Script Loader</title>
    <style type="text/css">
+ body {
+      font-size:24px;
+      line-height:1.5;
+      color:#333;
+    }
+    h1,h2,h3,body { font-family:'gill sans','dejavu sans',verdana,sans-serif; }
+    tt,.aux,.man-ref,pre,h1 { font-family:menlo,'dejavu sans mono',monospace; }
+.fork img {
+           position: absolute;
+           right: 0;
+           top: 0;
+           border: 0 none;
+           vertical-align: middle;
+}
    </style>
    <script type="text/javascript" src="inject-min.js"></script>
    <script type="text/javascript">
@@ -16,7 +30,15 @@
    </script>
 </head>
 <body>
+<a class="fork" href="https://github.com/thinkphp/inject"><img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 <div id="space"></div>
+<pre><code>
+            inject('m').then('r').then('w').ready(function(){
+                   window.addEvent('domready', function() {
+                          $('space').loadWeather('Bucharest','c') 
+                   })
+            })
+</code></pre>
 </body>
 </html>
 
