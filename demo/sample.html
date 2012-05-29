@@ -5,12 +5,19 @@
 <title></title>
 <style type="text/css">
    html,body{font-family: georgia,helvetica,arial,sans-serif,verdana;color: #000}
-   h1{background:none repeat scroll 0 0 #447E40;color:#FFFFFF;padding:14px;text-align:center;font-size: 40px;-moz-border-radius:5px;-border-radius:5px;-webkit-border-radius:5px;}
+   h1{background:none repeat scroll 0 0 #447E40;color:#FFFFFF;padding:14px;text-align:center;font-size: 40px;-moz-border-radius:5px;-border-radius:5px;-webkit-border-radius:5px;width: 700px}
    .loading{font-size: 20px}
     ul {width: 400px}  
     ul li{float:left;padding:5px;background:#eee;border:1px solid #999;margin-right:5px; list-style:none;}
    h1{font-size: 30px;margin: 10px}
    div.demo {margin-top: 10px;margin-left: 30px;}
+.fork img {
+           position: absolute;
+           right: 0;
+           top: 0;
+           border: 0 none;
+           vertical-align: middle;
+}
    #ft{font-size:80%;color:#888;text-align:left;margin:2em 0;font-size: 12px}
    #ft p a{color:#93C37D;}
 </style>
@@ -35,7 +42,9 @@ inject('js/mootools').then('js/request.jsonp').then('js/request.flickr').ready(f
 </script>
 </head>
 <body>
+<a class="fork" href="https://github.com/thinkphp/inject"><img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 <div id="time"></div>
+<h1>Inject - Asynchronous JavaScript Loader</h1>
 <div class="yui-u first">
         <div id="badge"></div>
 </div>
